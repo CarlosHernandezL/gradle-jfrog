@@ -21,7 +21,7 @@ jobs:
         version: 2.9.0
     - name: Configure Jfrog CLI
       run:  |
-        jfrog config add --url=http://159.89.158.231:8082 --user=${{ secrets.JFROG_USER }} --password={{ secrets.JFROG_PASSWORD }} --interactive=false artifactory
+        jfrog config add artifactory --url=http://159.89.158.231:8082 --user=${{ secrets.JFROG_USER }} --password={{ secrets.JFROG_PASSWORD }} --interactive=false
     - name: Configure Jfrog CLI Gradle
       run:  |
         jfrog gradle-config --server-id-resolve artifactory --server-id-deploy artifactory --repo-resolve gradle-virtual --repo-deploy gradle-virtual
