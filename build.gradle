@@ -3,7 +3,7 @@ buildscript {
     mavenLocal()
     maven {
       url "http://159.89.158.231:8082/artifactory/gradle-virtual"
-      allowInsecureProtocol true
+      allowInsecureProtocol = true
     }
   }
   dependencies {
@@ -27,7 +27,7 @@ repositories {
 	mavenLocal()
   	maven {
     		url "http://159.89.158.231:8082/artifactory/gradle-virtual"
-    	allowInsecureProtocol true
+    	allowInsecureProtocol = true
   	}
 }
 
