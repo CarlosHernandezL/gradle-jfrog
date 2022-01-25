@@ -2,8 +2,7 @@ buildscript {
   repositories {
     mavenLocal()
     maven {
-      url "http://159.89.158.231:8082/artifactory/gradle-virtual"
-      allowInsecureProtocol = true
+      url "https://cahltech.jfrog.io/artifactory/gradle-virtual"
     }
   }
   dependencies {
@@ -26,8 +25,7 @@ sourceCompatibility = '1.8'
 repositories {
 	mavenLocal()
   	maven {
-    		url "http://159.89.158.231:8082/artifactory/gradle-virtual"
-    		allowInsecureProtocol = true
+    		url "https://cahltech.jfrog.io/artifactory/gradle-virtual"
   	}
 }
 
