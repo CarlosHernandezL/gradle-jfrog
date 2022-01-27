@@ -5,7 +5,7 @@ buildscript {
       url "https://cahltech.jfrog.io/artifactory/gradle-virtual"
     }
     maven {
-      url "https://cahltech.jfrog.io/artifactory/gradle-virtual"
+      url "https://cahltech.jfrog.io/artifactory/maven-virtual"
     }
   }
   dependencies {
@@ -32,6 +32,9 @@ repositories {
   	maven {
     		url "https://cahltech.jfrog.io/artifactory/gradle-virtual"
   	}
+	maven {
+      		url "https://cahltech.jfrog.io/artifactory/maven-virtual"
+    	}
 }
 
 dependencies {
