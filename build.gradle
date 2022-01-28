@@ -28,16 +28,6 @@ group = 'com.example'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
 
-repositories {
-	mavenLocal()
-  	maven {
-    		url "https://cahltech.jfrog.io/artifactory/gradle-virtual"
-  	}
-	maven {
-      		url "https://cahltech.jfrog.io/artifactory/maven-virtual"
-    	}
-}
-
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
