@@ -3,7 +3,8 @@ on:
   push:
     paths:
       - "src/**"
-      - ".github/workflows/ci.yml" 
+      - ".github/workflows/ci.yml"
+      
 jobs:
   gradle-build:
     name: Gradle build
